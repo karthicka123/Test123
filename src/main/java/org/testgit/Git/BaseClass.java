@@ -2,7 +2,7 @@ package org.testgit.Git;
 
 import java.util.Scanner;
 
-public class test {
+public class BaseClass {
 
 	    public  void karthicka()
 	    {
@@ -23,7 +23,7 @@ public class test {
 	    }
 	    public static void main(String[] args) {
 	    	
-	    test e = new test();
+	    BaseClass e = new BaseClass();
 	    e.karthicka();
 	}
 }
